@@ -4,13 +4,13 @@ pipeline {
         stage('Build') { // Étape de compilation
             steps {
                 echo 'Building the application...' // Affiche un message
-                sh 'javac HelloWorld.java' // Compile le fichier Java
+                bat 'javac HelloWorld.java' // Compile le fichier Java
             }
         }
         stage('Test') { // Étape de test
             steps {
                 echo 'Running tests...'
-                sh 'java HelloWorld' // Exécute le fichier compilé
+                bat 'java HelloWorld' // Exécute le fichier compilé
             }
         }
         stage('Deploy') { // Étape de déploiement
