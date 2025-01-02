@@ -3,5 +3,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         // Instructions à exécuter
         System.out.println("Bonjour, Monde from Jenkins!");
+        System.out.println("Bonjour, Monde from Jenkins 2222222222222222222222!");
     }
 }
